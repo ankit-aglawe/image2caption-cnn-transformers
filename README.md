@@ -13,10 +13,10 @@ Evaluation and Metrics: Various evaluation metrics, such as BLEU (Bilingual Eval
 
 References:
 
-https://huggingface.co/nlpconnect/vit-gpt2-image-captioning
-GPT-2: Language Models are Unsupervised Multitask Learners
-BLEU: A Method for Automatic Evaluation of Machine Translation
-CIDEr: Consensus-based Image Description Evaluation
+1. https://huggingface.co/nlpconnect/vit-gpt2-image-captioning
+2. GPT-2: Language Models are Unsupervised Multitask Learners
+3. BLEU: A Method for Automatic Evaluation of Machine Translation
+4. CIDEr: Consensus-based Image Description Evaluation
 
 
 
