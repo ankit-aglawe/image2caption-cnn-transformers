@@ -6,7 +6,7 @@ import numpy as np
 import openai
 
 # Set up OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = ''
 
 # Load pre-trained CNN model for feature extraction
 # Replace with the appropriate CNN model and weights
