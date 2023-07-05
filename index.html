@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <title>Image Caption Generator</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="images/logo.jpg" alt="Logo">
+    </div>
+    <h1>Image Caption Generator</h1>
+    <form id="uploadForm" class="upload-form" enctype="multipart/form-data">
+      <label for="imageInput">
+        <img src="images/upload-icon.png" alt="Upload">
+        <span>Click to upload an image</span>
+      </label>
+      <input type="file" id="imageInput" name="image" accept="image/*" required>
+      <button type="submit">Upload Image</button>
+    </form>
+    <div id="imagePreview" style="display: none;">
+      <img id="previewImage" src="#" alt="Image Preview">
+    </div>
+    <div id="loading" style="display: none;">
+      <div class="loader"></div>
+    </div>
+    <div id="result"></div>
+    <button id="anotherImageBtn" class="another-image-btn" style="display: none;">Another Image</button>
+  </div>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
