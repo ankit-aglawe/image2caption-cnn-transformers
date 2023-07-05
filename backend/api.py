@@ -28,10 +28,6 @@ def upload_image():
     # Process the uploaded image using the ImageCaptioning class
     captions = main.get_captions(image_path_array)
 
-    # Remove the temporary image file
-    # Uncomment the following line if you want to delete the temporary image
-    # os.remove(temp_image_path)
-
     # Return the generated captions as a JSON response
     response = {'captions': captions}
     return response
